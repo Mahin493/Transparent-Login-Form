@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Abel', sans-serif;;
+}
+
+
+.fullscreen-container{
+    background-image: url('./images/bg6.jpg')
+    
+    ;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.login-container{
+  background-color: hsla(199, 65%, 36%,0.6);
+  padding: 50px 30px;
+  min-width: 300px;
+  width: 50%;
+  max-width: 600px;
+
+}
+
+.login-title{
+    color: white;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 21px;
+    
+}
+
+.input-group label{
+    color: white;
+    font-weight: lighter;
+    font-size: 1.5em;
+    margin-bottom: 6px;
+}
+
+.input-group input{
+    font-size: 1.5em;
+    padding: .1em .25em;
+    background-color: hsla(198, 14%, 14%, 0.4) ;
+    border: 1px solid hsl(180, 29%, 9%) ;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: lighter;
+
+}
+
+.input-group input:focus{
+    border:1.2px solid hsl(180, 29%, 55%) ;
+}
+.login-btn{
+    padding: 10px 30px;
+    width: 100%;
+    border-radius: 5px;
+
+    background-color: hsla(180, 29%, 55%,0.1);
+    border: 1px solid hsl(180, 29%, 55%);
+    font-size:1.5em ;
+    color: white;
+    margin-top: 22px;
+    font-weight: lighter;
+    cursor: pointer;
+    outline: none;
+}
